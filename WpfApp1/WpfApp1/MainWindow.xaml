@@ -1,0 +1,98 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,0,-16">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="45"/>
+
+            <RowDefinition/>
+            <RowDefinition Height="0*"/>
+
+
+        </Grid.RowDefinitions>
+        <Border Background="#7f7f7f" Grid.ColumnSpan="2"/>
+        <StackPanel Margin="40,0,0,0" VerticalAlignment="Center" Grid.ColumnSpan="2" Height="33">
+            <TextBlock Foreground="Black" FontSize="25" Text="METANIT.COM
+Сайт о программировании" Width="758"/>
+        </StackPanel>
+        <Button Content="Новости" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Height="45" Width="150"/>
+        <Button Content="C#" HorizontalAlignment="Left" Grid.Row="1" VerticalAlignment="Center" Height="45" Width="152" Margin="157,0,0,0" Grid.Column="1"/>
+        <Button Content="JAVA" HorizontalAlignment="Left" Grid.Row="1" VerticalAlignment="Center" Height="45" Width="157" Grid.Column="1"/>
+        <Button Content="WEB" HorizontalAlignment="Left" Grid.Row="1" VerticalAlignment="Center" Height="45" Width="156" Margin="309,0,0,0" Grid.Column="1"/>
+        <Button Content="C/C++" HorizontalAlignment="Left" Grid.Row="1" VerticalAlignment="Center" Height="45" Width="93" Margin="465,0,0,0" Grid.Column="1"/>
+        <Button Content="RUST" HorizontalAlignment="Left" Grid.Row="1" VerticalAlignment="Center" Height="45" Width="94" Margin="558,0,0,0" Grid.Column="1"/>
+        <Button Content="С#/.NET" HorizontalAlignment="Center" Height="61" Grid.Row="2" VerticalAlignment="Top" Width="150"/>
+        <Button Content="WEB" HorizontalAlignment="Center" Margin="0,61,0,0" Grid.Row="2" VerticalAlignment="Top" Height="51" Width="150"/>
+        <Button Content="SQL" HorizontalAlignment="Center" Margin="0,112,0,0" Grid.Row="2" VerticalAlignment="Top" Height="43" Width="150"/>
+        <Button Content="Java" HorizontalAlignment="Center" Margin="0,155,0,0" Grid.Row="2" VerticalAlignment="Top" Height="49" Width="150"/>
+        <Button Content="C/C++" HorizontalAlignment="Center" Margin="0,204,0,0" Grid.Row="2" VerticalAlignment="Top" Height="62" Width="150"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Grid.Row="2" TextWrapping="Wrap" Text="О сайте
+Данный сайт посвящен различным языкам и технологиям программирования, компьютерам, мобильным платформам и ИТ-технологиям. Здесь будут выкладываться различные руководства и учебные материалы, статьи и примеры.
+
+На сайте можно найти материалы по таким направлениям, как язык C# и семейство технологий .NET (ASP.NET, WPF, Entity Framework и т.д.), технологии на базе Java ( Java SE, программирование под ОС Андроид и т.д.), Python, Dart (в том числе Flutter), работа с базами данных (MS SQL Server, MySQL, MongoDB) а также WEB-технологии, такие как HTML5, AJAX, jQuery, Node.js, ExtJS, Angular, React и др.
+
+Поскольку жизнь не стоит на месте, все материалы по возможности дополняются и обновляются, чтобы соответствовать духу времени и не терять своей актуальности.
+
+По всем вопросам касательно сайта пишите по адресу metanit22@mail.ru.
+
+Спасибо за посещение сайта." VerticalAlignment="Top" Height="342" Width="268"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Grid.Row="2" TextWrapping="Wrap" Text="Что нового
+Аутентификация и авторизация в ASP.NET Core 6
+
+10.01.2022
+
+
+Перегрузка операторов в Kotlin
+
+26.12.2021
+
+
+Работа с базой данных через Entity Framework в ASP.NET Core 6
+
+25.12.2021
+
+
+Создание Web API в ASP.NET Core 6
+
+25.12.2021
+
+
+Results API в ASP.NET Core 6
+
+24.12.2021
+
+
+Google выпустил Flutter 2.8 и Dart 2.15 и игровой движок Flame 1.0
+
+09.12.2021
+
+
+В руководство по JavaScript добавлена глава про Fetch API
+
+05.12.2021" VerticalAlignment="Top" Height="349" Width="263" Margin="273,0,0,0"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Grid.Row="2" TextWrapping="Wrap" Text="Помощь сайту
+WebMoney
+P378451176208
+Z280152397659
+ЮMoney/Яндекс-Деньги
+410011174743222
+PayPal
+metanit22@mail.ru
+Перевод на карту
+Номер карты: 4048415020898850" VerticalAlignment="Top" Height="342" Width="114" Margin="536,0,0,0"/>
+
+
+
+
+    </Grid>
+</Window>
